@@ -26,6 +26,6 @@ foreach (var file in tryToReadThese)
     }
     catch (Exception ex)
     {
-        Console.WriteLine($"failed to read {file} using SkiaSharp while system.drawing and createing from file succeeds - {ex.Message}, codec used in file is {redingFromFilePathInsteadStream.EncodedFormat}");
+        Console.WriteLine($"failed to read {file} using SkiaSharp while system.drawing and creating from file succeeds - {ex.Message}, codec used in file is {redingFromFilePathInsteadStream.EncodedFormat}");
     }
 }
